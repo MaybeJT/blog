@@ -1,2 +1,1 @@
-# blog
-blog2020
+# Hello VuePress!
