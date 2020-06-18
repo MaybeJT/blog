@@ -1,9 +1,25 @@
+const moment = require('moment');
+moment.locale("zh-cn");
+
 module.exports = {
+    base: "/blog/",
     title: "Just We就是Just We,既不伟大也不卑微",
     description:"笔记",
     head:[
       ['link',{rel:'icon',href:'/assets/img/favicon.ico'}]  ,
       ['meta',{name:"MaybeJT",content:"笔记记录"}],
+    ],
+    plugins: [
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp) => {
+                    // 不要忘了安装 moment
+                    // const moment = require('moment')
+                    return moment(timestamp).format("LLLL")
+                }
+            }
+        ]
     ],
     themeConfig: {
         // navbar:false,

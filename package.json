@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/MaybeJT/blog/issues"
   },
-  "homepage": "https://github.com/MaybeJT/blog#readme"
+  "homepage": "https://github.com/MaybeJT/blog#readme",
+  "dependencies": {
+    "moment": "^2.26.0"
+  }
 }
