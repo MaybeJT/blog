@@ -11,6 +11,16 @@ module.exports = {
     ],
     plugins: [
         [
+            '@vuepress/pwa',
+            {
+                  serviceWorker: true,
+                  updatePopup: {
+                    message: "New content is available.",
+                       buttonText: "Refresh"
+              }
+            }
+        ],
+        [
             '@vuepress/last-updated',
             {
                 transformer: (timestamp) => {
