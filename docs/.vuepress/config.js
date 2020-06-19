@@ -3,7 +3,7 @@ moment.locale("zh-cn");
 
 module.exports = {
     base: "/blog/",
-    title: "Just We就是Just We,既不伟大也不卑微",
+    title: "学习记录，2020加油",
     description:"笔记",
     head:[
       ['link',{rel:'icon',href:'/assets/img/favicon.ico'}]  ,
@@ -15,8 +15,8 @@ module.exports = {
             {
                   serviceWorker: true,
                   updatePopup: {
-                    message: "New content is available.",
-                       buttonText: "Refresh"
+                    message: "发现新内容可用.",
+                    buttonText: "刷新"
               }
             }
         ],
@@ -38,7 +38,7 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Data Strutures',link: '/Data Strutures/'},
-            { text: 'about', link: '/about/' },
+            { text: '工具', link: '/Tools/' },
             { text: '万能网址', link: 'https://baidu.com' },
             // {
             //     text: 'Languages',
@@ -73,7 +73,7 @@ module.exports = {
         // },
           '/',
           '/Data Strutures/',
-          '/about/',
+          '/Tools/',
             // {
             //     title: 'Group 1',   // 必要的
             //     path: '/about/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
