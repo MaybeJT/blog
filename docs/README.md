@@ -14,4 +14,4 @@ features:
   details: 学习总结其他项目。
 footer: BUPT Licensed | Copyright © 2020-present MaybeJT
 ---
-# HELLO,VuePress
+# 项目

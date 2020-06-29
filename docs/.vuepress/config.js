@@ -62,18 +62,22 @@ module.exports = {
             //     ]
             // }
         ],
-        sidebar: [
+        sidebar: {
 
+            '/Data Strutures/': [
+                '',     /* /foo/ */
+                'one',
+                'Hot100',/* /foo/one.html */
+            ],
+            '/Tools/':[
+                '',
+            ],
+            // fallback
+            '/': [
+                '',        /* / */
+                'test'    /* /about.html */
+            ]
 
-        //     '/about/': [
-        //         'about1',     /* /foo/ */
-        //         'about2',  /* /foo/one.html */
-        //         '',  /* /foo/two.html */
-        //     ],
-        // },
-          '/',
-          '/Data Strutures/',
-          '/Tools/',
             // {
             //     title: 'Group 1',   // 必要的
             //     path: '/about/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
@@ -85,7 +89,7 @@ module.exports = {
             //         '/Data Strutures/'
             //     ]
             // },
-            ],
+        },
 
     }
 
