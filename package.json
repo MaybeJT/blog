@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/MaybeJT/blog#readme",
   "dependencies": {
-    "moment": "^2.26.0"
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "@vuepress/plugin-pwa": "^1.5.2",
